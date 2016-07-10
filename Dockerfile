@@ -3,7 +3,7 @@ MAINTAINER Reyes Ruiz <reyes_ruiz@digitalruiz.com>
 
 # Supported DB: HSQL(default) and MySQL(MariaDB). to select MySQL use DB_SUPPORT=mysql or DB_SUPPORT=mariadb on docekr run.
 ENV   DB_SUPPORT=default \
-      JIRA_VERSION=7.1.7
+      JIRA_VERSION=7.1.9
 
 RUN \
   rpm --rebuilddb && yum clean all && \
